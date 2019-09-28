@@ -1,23 +1,21 @@
 import React from 'react';
 import './App.css';
-import MyParticles from './Components/Particles/Particles';
-import Header from './Components/Header/Header';
-import { OurStory } from './Components/Sections/OurStory';
-import {ContactSection} from './Components/Sections/ContactSection';
-import Footer from './Components/Footer/Footer';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Landing from './Pages/Landing';
+import NotOldEnough from './Pages/NotOldEnough';
 
 function App() {
   return (
-    <div  id='main-contain'className="App">
-      <div id='section-wrapper'>
-        <Header/>
-        <MyParticles/>
-        <OurStory/>
-        <ContactSection/>
+
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path='/' component={Landing}/>
+          <Route exact path='/notoldenough'component={NotOldEnough}/>
+          <Route component={NotOldEnough}/>
+        </Switch>
       </div>
-  
-    <Footer/>
-    </div>
+    </Router>
   );
 }
 

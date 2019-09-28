@@ -1,17 +1,15 @@
 import React from 'react';
 import Demo from '../ContactForm/ContactForm'
 import MyParticles from '../Particles/Particles';
-
 const Subscribe = () => (
     <div>
-        <button type='button' className='mt-3 btn btn-primary btn-block btn-lg' data-toggle='modal' data-target='#subscribeModal'>
-            Subscribe
-        
+        <button type='button' className='mt-3 btn btn-primary btn-lg' data-toggle='modal' data-target='#subscribeModal'>
+            Subscribe       
         </button>
         <div id='subscribeModal' className='modal fade' tabIndex='-1' role='dialog' >
-            <div className='modal-dialog modal-lg' role='document'>
+            <div className='modal-dialog modal-lg'>
+                <MyParticles/>
                 <div className='modal-content'>
-                <MyParticles />
 
                     <div className='modal-header'>
                         <h5 className='modal-title'>Subscribe to #FollowTheNeon</h5>

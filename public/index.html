@@ -40,12 +40,14 @@
     -->
 
   <script>
-    $(document).ready(function () {
-$('#subscribeModal').on('shown.bs.modal', function(){
-  $('#nameInput').trigger('focus');
-})
+      $(document).ready(function () {
+        $('#loadModal').modal('show');
 
-    });
+        $('#subscribeModal').on('shown.bs.modal', function () {
+          $('#nameInput').trigger('focus');
+        })
+
+      });
   </script>
 </body>
 

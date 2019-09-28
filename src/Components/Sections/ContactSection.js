@@ -1,6 +1,5 @@
 import React from 'react';
 import {Container, Row, Col} from '../Grid';
-import Demo from '../ContactForm/ContactForm';
 import Subscribe from './Subscribe';
 
 export const ContactSection = () => 
@@ -13,17 +12,15 @@ export const ContactSection = () =>
             </Row>   
             <br/> 
             <Row>
-                <Col size='2'/>
-                <Col size='4'>
-                    <div className='mx-auto'>
-                        <h5 className='din16 ml-5'>Josh Miller</h5>
+                <Col size='12'>
+                    <div className='text-center m-1'>
+                        <h5 className='din16'>Josh Miller</h5>
                         <h5 className='din16'>josh@outrunbrewingco.com</h5>
                     </div>
                 </Col>
-                <Col size='1'/>
-                <Col size='4'>
-                    <div className='mx-auto'>
-                        <h5 className='din16 ml-5'> Ryan Silva</h5>
+                <Col size='12'>
+                    <div className='text-center m-1'>
+                        <h5 className='din16 '> Ryan Silva</h5>
                         <h5 className='din16'>ryan@outrunbrewingco.com</h5>
                     </div>
                 </Col>
@@ -32,11 +29,13 @@ export const ContactSection = () =>
     
         <Container>
             <Row>
-                <Col size='4'></Col>
-                <Col size='4'>
-                    <Subscribe />
+                <Col size='5'></Col>
+                <Col size='2'>
+                    <div className='pl-3'>
+                        <Subscribe />
+                    </div>
                 </Col>
-                <Col size='4'></Col>
+                <Col size='5'></Col>
 
             </Row>
         </Container>

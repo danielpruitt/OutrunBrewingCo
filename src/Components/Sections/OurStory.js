@@ -1,9 +1,11 @@
 import React from 'react';
 import {Col, Row, Container} from '../Grid';
 import Links from './Links';
+import LoadModal from '../Modal/LoadModal';
 
 export const OurStory = () =>
 <div>
+    <LoadModal/>
     <Container> 
         <Row>
             <Col size='12'>
@@ -19,7 +21,7 @@ export const OurStory = () =>
             </Col>
         </Row>
     </Container>
-    <div className='ml-5 mt-5'>
+    <div className=' mt-5'>
         <Links/>
     </div>
 </div>

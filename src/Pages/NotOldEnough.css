@@ -1,0 +1,17 @@
+.not-old-image { 
+    height:100%;
+}
+
+.margin-fix {
+    margin-top: 10vh;
+    padding-left: 15vw;
+}
+
+.game-over { 
+    margin-left: 33vw;
+    padding-top: 20vh;
+}
+
+.game-over-text { 
+    font-size: 4.5rem;
+}
