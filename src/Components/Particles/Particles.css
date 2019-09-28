@@ -1,0 +1,17 @@
+body{
+    background-color: #1D1D1F;
+}
+.modal { 
+    background-color:  #1D1D1F;
+}
+.modal-close-x { 
+    float:right;
+    color:white;
+    font-weight: bold;
+}
+.particlesBehind canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} 

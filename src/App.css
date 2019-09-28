@@ -1,22 +1,128 @@
-.App {
-  text-align: center;
+/* Fonts */
+
+@font-face {
+  font-family: "din16";
+  src: url(./Fonts/Din16Regular.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
+@font-face { 
+  font-family: "Lazer84";
+  src: url(./Fonts/Lazer84.ttf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.outrunpurple { 
+  background-color: #d90606
 }
 
-.App-link {
-  color: #09d3ac;
+.outrunPink { 
+  background-color:#bb1581
+}
+
+i{
+  color:white;
+}
+
+.neon-bottom {
+  border-bottom: 1px solid #bb1581;
+  margin-top: 1.5em;
+}
+
+.lazer84 {
+  color: #BC1682;
+  /* color: white; */
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  font-family:'Lazer84';
+  letter-spacing: 8px;
+  font-style:italic;
+  text-shadow: 2px 2px 5px #6c0e4b;
+}
+
+.din16 {
+  color:white;
+  font-family:'din16';
+}
+
+h3 { 
+  border-bottom: #BC1682 1px solid;
+}
+p { 
+  color:white;
+  font-family:'din16';
+}
+
+.clickable:hover { 
+  cursor:pointer;
+}
+.btn-primary { 
+  background-color: #BC1682;
+  border-color: #BC1682;
+}
+
+.btn-primary:hover{ 
+  color: #fff;
+  background-color: #530337 !important;
+  border-color: #530337  !important;
+}
+
+.btn-primary:focus{ 
+  box-shadow: 0 0 0 0 #BC1682
+}
+
+/* NEON GLOW */
+
+.neon {
+  color: #BC1682;
+  /* color: white; */
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  font-family:'Lazer84';
+  letter-spacing: 8px;
+  /* font-size: 200em; */
+  font-style:italic;
+  /* cursor hover */
+  cursor: pointer;
+  }
+  
+  /* webkit and mozilla animations for joint <h2> tag class from header component.
+  used to make the pulse of the neon sign and turns the font color white. */
+  .neon:hover {
+    color: #ffffff;
+    -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon6 1.5s ease-in-out infinite alternate;
+    animation: neon6 1.5s ease-in-out infinite alternate;
+  }
+
+  /* applied styling for Webkit when hovering over the text. */
+@-webkit-keyframes neon6 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px , 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  }
+}
+
+/* applied styling for moz when hovering over the text. */
+@-moz-keyframes neon6 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  }
+}
+
+/* defining @keyframes used for text supplied by the Header Component */
+@keyframes neon6 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  }
 }
