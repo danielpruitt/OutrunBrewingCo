@@ -3,7 +3,7 @@ import Demo from '../ContactForm/ContactForm'
 import MyParticles from '../Particles/Particles';
 const Subscribe = () => (
     <div>
-        <button type='button' className='mt-3 btn btn-primary btn-lg' data-toggle='modal' data-target='#subscribeModal'>
+        <button type='button' className=' center-block mt-3 btn btn-primary' data-toggle='modal' data-target='#subscribeModal'>
             Subscribe       
         </button>
         <div id='subscribeModal' className='modal fade' tabIndex='-1' role='dialog' >

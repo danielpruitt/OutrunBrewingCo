@@ -1,11 +1,9 @@
 import React from 'react';
 import {Col, Row, Container} from '../Grid';
 import Links from './Links';
-import LoadModal from '../Modal/LoadModal';
 
 export const OurStory = () =>
 <div>
-    <LoadModal/>
     <Container> 
         <Row>
             <Col size='12'>

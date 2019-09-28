@@ -52,6 +52,11 @@ p {
   color:white;
   font-family:'din16';
 }
+.center-block {
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
 
 .clickable:hover { 
   cursor:pointer;

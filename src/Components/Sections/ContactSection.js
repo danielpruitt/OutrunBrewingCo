@@ -29,13 +29,11 @@ export const ContactSection = () =>
     
         <Container>
             <Row>
-                <Col size='5'></Col>
-                <Col size='2'>
-                    <div className='pl-3'>
-                        <Subscribe />
-                    </div>
+                <Col size='4'></Col>
+                <Col size='4'>            
+                    <Subscribe />
                 </Col>
-                <Col size='5'></Col>
+                <Col size='4'></Col>
 
             </Row>
         </Container>
