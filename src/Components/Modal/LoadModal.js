@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col } from '../Grid';
 const LoadModal = () => (
     <div>
-        <div id='loadModal' className='modal show fade' tabIndex='-1' role='dialog'>
+        <div id='loadModal' className='modal show ' tabIndex='-1' role='dialog'>
             <div className='modal-dialog ' role='document'>
                 <div className='modal-content'>
                     <div className='modal-body'>

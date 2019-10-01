@@ -37,17 +37,19 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      -->
+      
+      <script>
+        $(document).ready(function () {
+      
+          $('#loadModal').modal('show');
 
-  <script>
-      $(document).ready(function () {
-        $('#loadModal').modal('show');
-        $('#loadModal').modal({
-            backdrop:false,
-        });
-        // $('#subscribeModal').on('shown.bs.modal', function () {
-        //   $('#nameInput').trigger('focus');
-        // })
+          $('#loadModal').modal({
+            backdrop: true,
+          });
+        $('#subscribeModal').on('shown.bs.modal', function () {
+          $('#nameInput').trigger('focus');
+        })
 
       });
   </script>

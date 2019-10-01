@@ -1,6 +1,6 @@
 import React from 'react';
 import Demo from '../ContactForm/ContactForm'
-import MyParticles from '../Particles/Particles';
+
 const Subscribe = () => (
     <div>
         <button type='button' className=' center-block mt-3 btn btn-primary' data-toggle='modal' data-target='#subscribeModal'>
@@ -8,7 +8,6 @@ const Subscribe = () => (
         </button>
         <div id='subscribeModal' className='modal fade' tabIndex='-1' role='dialog' >
             <div className='modal-dialog modal-lg'>
-                <MyParticles/>
                 <div className='modal-content'>
 
                     <div className='modal-header'>

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Col, Row, Container} from '../Grid';
 import Links from './Links';
+import BrewerContainer from '../ImageContainers/BrewerContainer';
 
 export const OurStory = () =>
 <div>
@@ -10,6 +11,8 @@ export const OurStory = () =>
                 <h2 className=' neon lazer84 neon-bottom'>Our Story</h2>
             </Col>
         </Row>
+        <br/>
+        <BrewerContainer/>
         <br/>
         <Row>
             <Col size='12'>
