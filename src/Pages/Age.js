@@ -1,13 +1,18 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import {Animated} from 'react-animated-css';
 import MyParticles from '../Components/Particles/Particles';
 import {Container, Row, Col} from '../Components/Grid';
+
 import './Age.css';
 const Age =()=>(
     <div>
         <MyParticles />
             <div className='age-area'>
-                <Container>
+
+            <Animated animationIn="bounceInDown" animationOut="lightSpeedOut" animationInDuration={800} animationOutDuration={800} isVisible={true}>
+
+            <Container>
                     <div className='age-gif'>
 
                     <Row>
@@ -42,6 +47,8 @@ const Age =()=>(
                         </div>
                 </div>
                 </Container>
+            </Animated>
+            
                 
             </div>
         
