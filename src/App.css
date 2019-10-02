@@ -76,7 +76,28 @@ p {
   box-shadow: 0 0 0 0 #BC1682
 }
 
+.btn-outline-primary { 
+  color: #BC1682;
+  border-color:#BC1682;
+  width: 6.5rem;
+  font-family: 'lazer84';
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  font-family:'Lazer84';
+  letter-spacing: 8px;
+  font-style:italic;
+  text-shadow: 2px 2px 5px #6c0e4b;
+  box-shadow: 1px 1px 1px #6c0e4b;
+}
+.btn-outline-primary:hover { 
+  color: white;
+  border-color:#BC1682;
+  background-color: #BC1682;
+  font-family: 'lazer84';
 
+}
 /* NEON GLOW */
 
 .neon {

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { HashRouter, Route, Switch } from "react-router-dom";
+import Age from './Pages/Age';
 import Landing from './Pages/Landing';
 import NotOldEnough from './Pages/NotOldEnough';
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <div>
 
         <Switch>
-          <Route exact path='/' component={Landing}/>
+          <Route exact path='/' component={Age}/>
+          <Route exact path='/Home' component={Landing}/>
           <Route exact path='/notoldenough'component={NotOldEnough}/>
           <Route component={NotOldEnough}/>
         </Switch>

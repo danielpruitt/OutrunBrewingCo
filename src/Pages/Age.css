@@ -1,0 +1,32 @@
+.age-area { 
+    padding-top:15vh;
+    padding-left:25vw;
+    
+}
+
+.age-gif { 
+    background-image: url('../Images/delorean2.gif');
+    height:73vh;
+    width:34vw;
+    display: inline-block;
+    margin:1% 10%;
+    border-radius: .8rem;
+    box-shadow:
+    inset .08rem .08rem #f0f, /* middle magenta */
+      .08rem .08rem #0ff; /* outer cyan */
+}
+
+
+@media only screen and (max-width: 600px) {
+    .age-gif {
+        height:42vh;
+        width:89vw;
+        background-position-y: 50vh;
+        background-position-x: -17vw;
+        }
+
+        .age-area { 
+            padding-top:10vh;
+            padding-left:2vw;
+        }
+}
