@@ -17,7 +17,7 @@ const Links = () => (
                     </div>           
                 </Col>
                 <Col size='3'>
-                    <div className='clickable' onClick={() => window.open('https://www.instagram.com/outrunbrewingco/', '_blank')}>
+                    <div className='clickable' onClick={() => window.open('https://www.twitter.com/outrunbrewingco/', '_blank')}>
                         <i className='fab fa-twitter-square fa-5x'></i>
                     </div>
                 </Col>
