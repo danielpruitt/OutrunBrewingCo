@@ -1,6 +1,8 @@
 {
   "name": "obc",
-  "homepage": "https://www.danielpruitt.github.io/OutrunBrewingCo",
+  "homepage": "http://www.outrunbrewingco.com",
+  //"homepage": "https://www.danielpruitt.github.io/OutrunBrewingCo",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
