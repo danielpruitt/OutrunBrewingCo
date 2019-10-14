@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60ffee8b5fee3155fe9219e49541d34d",
+    "revision": "ae4016b8eb0c12286fe4a7e3144c32c0",
     "url": "/index.html"
   },
   {
-    "revision": "bb98fa99e044488a926b",
-    "url": "/static/css/main.f7812745.chunk.css"
+    "revision": "c5d3f81cfdf8811e79b3",
+    "url": "/static/css/main.9cb01937.chunk.css"
   },
   {
     "revision": "95ca1e63f18b1daaba80",
     "url": "/static/js/2.db973105.chunk.js"
   },
   {
-    "revision": "bb98fa99e044488a926b",
-    "url": "/static/js/main.2215479b.chunk.js"
+    "revision": "c5d3f81cfdf8811e79b3",
+    "url": "/static/js/main.b474fe51.chunk.js"
   },
   {
     "revision": "e71279d402ceecef005a",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Din16Regular.801066d2.ttf"
   },
   {
-    "revision": "4c2b2c764dd9f36343c4b45e7258180b",
-    "url": "/static/media/FollowTheNeon_Sign_Outrun.4c2b2c76.jpg"
+    "revision": "9762feffee774514a510d79c394bad9f",
+    "url": "/static/media/FollowTheNeon_SignWithGap_B&W_Outrun.9762feff.png"
   },
   {
     "revision": "b12d7dca411657fd1645b9db83e4573d",
