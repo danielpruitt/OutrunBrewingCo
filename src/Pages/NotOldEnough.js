@@ -11,7 +11,7 @@ const NotOldEnough = () => (
             <Container> 
                 <Row>
                     <Col size='12'> 
-                        <h1 className=' neon lazer84 game-over-text'>Game Over</h1>
+                        <h1 className='neon lazer84 game-over-text'>Game Over</h1>
                     </Col>    
                 </Row> 
             </Container>

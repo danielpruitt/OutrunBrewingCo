@@ -15,3 +15,14 @@
 .game-over-text { 
     font-size: 4.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .not-old-image { 
+        width:100vw;
+        height:60vh;
+    }
+
+    .game-over{
+        margin-left:45vw;
+    }
+}
