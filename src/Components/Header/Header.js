@@ -3,7 +3,7 @@ import './Header.css';
 import MyParticles from '../Particles/Particles';
 
 const Header = () => (
-    <div>
+    <div className='header-container'>
         <MyParticles />
         <img 
         src={require('../../Images/FollowTheNeonPink.png')}
