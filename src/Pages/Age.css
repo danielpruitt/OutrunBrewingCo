@@ -5,7 +5,9 @@
 }
 
 .age-gif { 
-    background-image: url('../Images/delorean2.gif');
+    /* background-image: url('../Images/delorean2.gif'); */
+
+    background-image: url('../Images/OutrunGifs/OutrunDelorean.gif');
     height:73vh;
     width:34vw;
     display: inline-block;
@@ -15,7 +17,9 @@
     inset .08rem .08rem #f0f, /* middle magenta */
       .08rem .08rem #0ff; /* outer cyan */
 }
-
+.col-12{
+    margin-bottom:3vh;
+}
 
 @media only screen and (max-width: 600px) {
     .age-gif {
@@ -25,7 +29,11 @@
         background-position-x: -17vw;
         margin:auto;
         }
-
+        .col-12{
+            margin-top:15vh;
+            margin-bottom:3vh;
+        }
+        
         .age-area { 
             padding-top:10vh;
             padding-left:2vw;

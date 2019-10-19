@@ -22,8 +22,7 @@ const Age =()=>(
                             </div>
                         </Col>
                     </Row>
-                    <br/>
-                    <div className='mt-4'>
+                    <div className='pt-1'>
                             <Container>
                                 <Row>
                                     <Col size='6'>

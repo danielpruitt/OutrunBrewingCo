@@ -9,14 +9,15 @@
 
 
 @media only screen and (max-width: 600px) {
-    .header-container{
+    /* .header-container{
         display: none;
         visibility: hidden;
-    }
+    } */
     .cust-img { 
-        margin-top:4vh;
-        width:15vw;
-        height:15vh;
+        margin-top:5vh;
+        width:100vw;
+        height:60vh;
+        /* margin-bottom:25vh; use if they want just this on the load */
     }
 }
 

@@ -1,15 +1,17 @@
 .not-old-image { 
-    height:100%;
+    /* height:100%; */
+    width:100vw;
+    height:100vh;
 }
 
 .margin-fix {
     margin-top: 10vh;
-    padding-left: 15vw;
+    padding-left: 30vw;
 }
 
 .game-over { 
     margin-left: 33vw;
-    padding-top: 20vh;
+    padding-top: 3vh;
 }
 
 .game-over-text { 
@@ -19,10 +21,15 @@
 @media only screen and (max-width: 600px) {
     .not-old-image { 
         width:100vw;
-        height:60vh;
+        height:100vh;
     }
 
     .game-over{
-        margin-left:45vw;
+        margin-left:20vw;
+        margin-top:-25vh;
+
+    }
+    .margin-fix{
+        margin-top:0;
     }
 }
