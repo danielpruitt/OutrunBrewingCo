@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "132e425d22a47a36a7da47f1de0fab0b",
+    "revision": "6f1f41b444c4e9aecd9ac35a69dbb48c",
     "url": "/index.html"
   },
   {
-    "revision": "0fd1c9b2e32373557884",
+    "revision": "5502b4eee4fc88848629",
     "url": "/static/css/main.19d1f1df.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.08448e04.chunk.js"
   },
   {
-    "revision": "0fd1c9b2e32373557884",
-    "url": "/static/js/main.410be05d.chunk.js"
+    "revision": "5502b4eee4fc88848629",
+    "url": "/static/js/main.ef9a2ea7.chunk.js"
   },
   {
     "revision": "5a5a65e9d1ffcf43ca52",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "801066d2a9760edcfe529fc2e81c6c68",
     "url": "/static/media/Din16Regular.801066d2.ttf"
+  },
+  {
+    "revision": "b0b1ef6ab137a18b379854e0bea55562",
+    "url": "/static/media/FollowTheNeonPink.b0b1ef6a.png"
   },
   {
     "revision": "b12d7dca411657fd1645b9db83e4573d",
@@ -38,9 +42,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "983506a1affa82da666eb1dfa51320c9",
     "url": "/static/media/OutrunMachoMan.983506a1.gif"
-  },
-  {
-    "revision": "42230989baccd06bd0a34935fbecfaf4",
-    "url": "/static/media/outrunneon.42230989.jpg"
   }
 ]);
