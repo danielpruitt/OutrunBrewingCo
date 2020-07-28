@@ -6,7 +6,7 @@ const Header = () => (
     <div className='header-container'>
         <MyParticles />
         <img 
-        src={require('../../Images/FollowTheNeonPink.png')}
+        src={require('../../Images/outrunneon.jpg')}
         alt='follow the neon'
         className='cust-img mx-auto d-block'
         />
